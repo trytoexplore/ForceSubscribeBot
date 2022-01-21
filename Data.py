@@ -13,7 +13,7 @@ The chat can be a group or channel. It can be private or public.
 
 Use below buttons to learn more !
 
-By @StarkBots
+By @LG_Bot_Updates
     """
 
     # Home Button
@@ -23,13 +23,13 @@ By @StarkBots
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/StarkBots/7")],
+        [InlineKeyboardButton("➕ Add Me To Your Group", url="https://t.me/LG_force_subscribe_bot?startgroup=True")],
         [
             InlineKeyboardButton("How to Use ❔", callback_data="help"),
             InlineKeyboardButton("🎪 About 🎪", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
-        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/StarkBotsChat")],
+        [InlineKeyboardButton("♥ Bot Updates ♥", url="https://t.me/LG_Bot_Updates")],
+        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/+bsTf93bUeUM4Yjc1")],
     ]
 
     # Help Message
@@ -50,7 +50,7 @@ Example : `/fsub -1001505616678` or `/forcesubscribe -1001375849192`
 /fsub - See current force subscribe chat
 /fsub chat_id/username - Force users to join the particular chat
 /settings - Change Group Settings
-/id - Get the chat id of any group or channel
+/id - Get the chat id of any group or channel.This command only works in group
 /about - About The Bot
 /help - This Message
 /start - Start the Bot
@@ -62,7 +62,7 @@ Example : `/fsub -1001505616678` or `/forcesubscribe -1001375849192`
     ABOUT = """
 **About This Bot** 
 
-A telegram force subscribing bot by @StarkBots
+A telegram force subscribing bot by @LG_Bot_Updates
 
 Source Code : [Click Here](https://github.com/StarkBotsIndustries/ForceSubscribeBot)
 
@@ -70,5 +70,5 @@ Framework : [Pyrogram](docs.pyrogram.org)
 
 Language : [Python](www.python.org)
 
-Developer : @StarkProgrammer
+Developer : @LG_Bot_Updates 
     """
